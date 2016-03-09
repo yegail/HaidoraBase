@@ -30,7 +30,4 @@ Pod::Spec.new do |s|
   s.subspec 'Util' do |utils|
       utils.source_files = 'Pod/Classes/Util/**/*.{h,m}','Pod/Classes/*.{h,m}'
   end
-  s.resource_bundles = {
-      'HaidoraBase' => ['Pod/Assets/*.*']
-  }
 end
